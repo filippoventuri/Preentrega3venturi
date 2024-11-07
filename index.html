@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interactivo</title>
+    <style>
+        /* Estilos básicos */
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: auto; font-size: 30px;}
+        .question { margin-bottom: 20px; }
+        .result { margin-top: 20px; font-weight: bold; }
+        .notification { color: green; font-style: italic; margin-top: 10px; }
+        button{
+            background-color: black;
+            color: white;
+            font-size: 30px;
+        }
+
+        button:hover{
+            background-color: white;
+            color: black;
+            border: solid 2px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Interactivo</h1>
+        <div id="quiz-container"></div>
+        <button id="submit-btn">Enviar Respuestas</button>
+        <div id="result-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
